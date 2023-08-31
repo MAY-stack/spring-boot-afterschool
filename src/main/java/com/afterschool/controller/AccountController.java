@@ -236,7 +236,7 @@ public class AccountController {
 		return "{\"msg\":\"EMAIL_NOT_FOUND\"}";
 		
 		//임시 패스워드 생성
-		String rawTempPW = service.tempPassowrdMaker(); /*오타임 tempPassowrdMaker 나중에 한번에 바꿀것*/
+		String rawTempPW = service.tempPassowrdMaker();
 		
 		//임시패스워드 인코딩 후 수정
 		service.memberPasswordModify(memberDTO.getUserid(), rawTempPW);
