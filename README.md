@@ -8,9 +8,9 @@
     - [요구사항 정의 및 페이지·기능 명세서](#📝-요구사항-정의-및-페이지기능-명세서)
     - [테이블 명세서 및 ERD](#📝-테이블-명세서-및-erd)
     - [API 명세서](#📝-api-명세서)
-3. [화면 설계](#3-화면-설계)
-    - [UML](#uml)
-    - [와이어 프레임](#와이어-프레임)
+3. [화면 설계](#3-화면-설계---⛓️-uml)
+    - [UML](#3-화면-설계---⛓️-uml)
+    - [와이어 프레임](#🖌️-와이어-프레임)
 4. [구현 기능 및 화면](#4-주요-기능-및-구현-화면)
     - [공통 기능](#👨‍👩‍👧‍👦-공통기능)
     - [회원 기능](#🪪-회원기능)
@@ -65,96 +65,96 @@
 
 ![API 명세서](images/documents/api_specification.png)
 
-## 3. 화면 설계
-### ⛓️ UML
-#### •　애플리케이션 전체 프로세스 및 공통기능
+## 3. 화면 설계 - ⛓️ UML
+### 👨‍👩‍👧‍👦 공통 기능
+  - 애플리케이션 전체 프로세스 및 공통기능
 ![애플리케이션 전체 프로세스](images/uml/application_process_overview.png)
-#### •　회원가입 및 로그인
+  - 회원가입 및 로그인
 ![회원가입 및 로그인](images/uml/user_registration_and_login.png)
-#### •　아이디 찾기 및 비밀번호 찾기
+  - 아이디 찾기 및 비밀번호 찾기
 ![아이디 찾기 및 비밀번호 찾기](images/uml/find_username_and_password.png)
-#### •　강의 완강율 및 평점 반영
+  - 강의 완강율 및 평점 반영
 ![강의 완강율 및 평점 반영](images/uml/course_completion_rate_and_rating.png)
----
-#### 🧑‍🏫 강사 회원의 기능
-##### •　회원정보수정 및 신규 강좌 등록 신청
+
+### 🧑‍🏫 강사 회원의 기능
+  - 회원정보수정 및 신규 강좌 등록 신청
 ![회원정보수정 및 신규 강좌 등록 신청](images/uml/instructor_functionality.png)
-##### •　신규 강좌 등록 신청 처리 프로세스
+  - 신규 강좌 등록 신청 처리 프로세스
 ![신규 강좌 등록 신청 처리 프로세스](images/uml/new_course_registration_process.png)
-##### •　강좌 공지사항 관리
+  - 강좌 공지사항 관리
 ![강좌 공지사항 관리](images/uml/course_notice_management.png)
----
-#### 🧑‍💻 학생 회원의 기능
-##### •　회원정보수정 및 자유게시판 이동
+
+### 🧑‍💻 학생 회원의 기능
+  - 회원정보수정 및 자유게시판 이동
 ![회원정보수정 및 자유게시판 이동](images/uml/modify_member_information_and_free_board_access.png)
-##### •　수강신청 및 찜하기
+  - 수강신청 및 찜하기
 ![수강신청 및 찜하기](images/uml/course_enrollment_and_add_to_wishlist.png)
-##### •　강의 이어듣기 및 완경 여부에 따른 후기작성
+  - 강의 이어듣기 및 완경 여부에 따른 후기작성
 ![강의 이어듣기 및 완경 여부에 따른 후기작성](images/uml/continue_listening_to_lectures_and_review_writing.png)
----
-#### 🧑‍🔧 관리자의 기능
-##### •　강좌 등록 신청 승인 및 거절 회원관리
+
+### 🧑‍🔧 관리자의 기능
+  - 강좌 등록 신청 승인 및 거절 회원관리
 ![강좌 등록 신청 승인 및 거절 회원관리](images/uml/administrator_functionality.png)
 
-### 🖌️ 와이어 프레임
-![와이어 프레임 1](images/uml/wireframes-1.png)
-![와이어 프레임 2](images/uml/wireframes-2.png)
+## 🖌️ 와이어 프레임
+  - ![와이어 프레임 1](images/uml/wireframes-1.png)
+  - ![와이어 프레임 2](images/uml/wireframes-2.png)
 
 
 ## 4. 주요 기능 및 구현 화면
 ### 👨‍👩‍👧‍👦 공통 기능
-- 메인
-  ![메인](images/ImplementationScreens/main.png)
-- 강좌 조회
-  ![강좌 조회](images/ImplementationScreens/course_list.png)
-- 강좌 상세 보기
-  ![강좌 상세 보기](images/ImplementationScreens/course_details.png)
-- 강사 조회
-  ![강사 조회](images/ImplementationScreens/instructor_list.png)
-- 강사 상세정보 보기
-  ![강사 상세정보 보기](images/ImplementationScreens/instructor_details.png)
+  - 메인
+    ![메인](images/ImplementationScreens/main.png)
+  - 강좌 조회
+    ![강좌 조회](images/ImplementationScreens/course_list.png)
+  - 강좌 상세 보기
+    ![강좌 상세 보기](images/ImplementationScreens/course_details.png)
+  - 강사 조회
+    ![강사 조회](images/ImplementationScreens/instructor_list.png)
+  - 강사 상세정보 보기
+    ![강사 상세정보 보기](images/ImplementationScreens/instructor_details.png)
 
 ### 🪪 회원 기능
-- 로그인
-  ![로그인](images/ImplementationScreens/login.png)
-- 아이디 찾기
-  ![아이디 찾기](images/ImplementationScreens/find_id.png)
-- 비밀번호 찾기
-  ![비밀번호 찾기](images/ImplementationScreens/find_password.png)
-- 회원가입 - 회원 유형 선택
-  ![회원가입 - 회원 유형 선택](images/ImplementationScreens/signup.png)
-- 회원가입 - 학생
-  ![회원가입 - 학생](images/ImplementationScreens/signup_student.png)
-- 회원가입 - 강사
-  ![회원가입 - 강사](images/ImplementationScreens/signup_instructor.png)
-- 회원 정보수정 - 학생
-  ![회원 정보수정 - 학생](images/ImplementationScreens/student_profile_edit.png)
-- 회원 정보수정 - 강사
-  ![회원 정보수정 - 강사](images/ImplementationScreens/instructor_profile_edit.png)
-- 비밀번호 변경
-  ![비밀번호 변경](images/ImplementationScreens/change_password.png)
+  - 로그인
+    ![로그인](images/ImplementationScreens/login.png)
+  - 아이디 찾기
+    ![아이디 찾기](images/ImplementationScreens/find_id.png)
+  - 비밀번호 찾기
+    ![비밀번호 찾기](images/ImplementationScreens/find_password.png)
+  - 회원가입 - 회원 유형 선택
+    ![회원가입 - 회원 유형 선택](images/ImplementationScreens/signup.png)
+  - 회원가입 - 학생
+    ![회원가입 - 학생](images/ImplementationScreens/signup_student.png)
+  - 회원가입 - 강사
+    ![회원가입 - 강사](images/ImplementationScreens/signup_instructor.png)
+  - 회원 정보수정 - 학생
+    ![회원 정보수정 - 학생](images/ImplementationScreens/student_profile_edit.png)
+  - 회원 정보수정 - 강사
+    ![회원 정보수정 - 강사](images/ImplementationScreens/instructor_profile_edit.png)
+  - 비밀번호 변경
+    ![비밀번호 변경](images/ImplementationScreens/change_password.png)
 
 ### 🧑‍💻 학생용 기능
-- 내 강의실
-  ![학생 - 내 강의실](images/ImplementationScreens/student_my_courses.png)
-- 내 강의실 - 강의 평가
-  ![학생 - 내 강의실 (강의 평가)](images/ImplementationScreens/student_my_courses_rating.png)
-- 강의 플레이어
-  ![강의 플레이어](images/ImplementationScreens/course_player.png)
-- 자유 게시판 - 글목록
-  ![자유 게시판 - 글목록](images/ImplementationScreens/free_board_list.png)
-- 자유 게시판 - 글쓰기
-  ![자유 게시판 - 글쓰기](images/ImplementationScreens/free_board_write.png)
+  - 내 강의실
+    ![학생 - 내 강의실](images/ImplementationScreens/student_my_courses.png)
+  - 내 강의실 - 강의 평가
+    ![학생 - 내 강의실 (강의 평가)](images/ImplementationScreens/student_my_courses_rating.png)
+  - 강의 플레이어
+    ![강의 플레이어](images/ImplementationScreens/course_player.png)
+  - 자유 게시판 - 글목록
+    ![자유 게시판 - 글목록](images/ImplementationScreens/free_board_list.png)
+  - 자유 게시판 - 글쓰기
+    ![자유 게시판 - 글쓰기](images/ImplementationScreens/free_board_write.png)
 
 ### 🧑‍🏫 강사용 기능
-- 내 강의실
-  ![강사 - 내 강의실](images/ImplementationScreens/instructor_my_courses.png)
-- 신규 강좌 등록 신청
-  ![신규 강좌 등록 신청](images/ImplementationScreens/new_course_registration.png)
-- 강좌 공지 게시판 - 글목록
-  ![강좌 공지 게시판 - 글목록](images/ImplementationScreens/course_notice_list.png)
-- 강좌 공지 게시판 - 글쓰기
-  ![강좌 공지 게시판 - 글쓰기](images/ImplementationScreens/course_notice_write.png)
+  - 내 강의실
+    ![강사 - 내 강의실](images/ImplementationScreens/instructor_my_courses.png)
+  - 신규 강좌 등록 신청
+    ![신규 강좌 등록 신청](images/ImplementationScreens/new_course_registration.png)
+  - 강좌 공지 게시판 - 글목록
+    ![강좌 공지 게시판 - 글목록](images/ImplementationScreens/course_notice_list.png)
+  - 강좌 공지 게시판 - 글쓰기
+    ![강좌 공지 게시판 - 글쓰기](images/ImplementationScreens/course_notice_write.png)
 
 ### 🧑‍🔧 관리자 기능
-  ![관리자 메뉴](images/ImplementationScreens/admin_menu.png)
+  - ![관리자 메뉴](images/ImplementationScreens/admin_menu.png)
